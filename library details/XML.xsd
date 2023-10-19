@@ -1,0 +1,100 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="library">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="books">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="book1">
+<xs:complexType>
+<xs:sequence>
+<xs:element type="xs:string" name="title"/>
+<xs:element type="xs:string" name="author"/>
+<xs:element type="xs:short" name="year"/>
+<xs:element type="xs:long" name="isbn"/>
+<xs:element type="xs:short" name="price"/>
+</xs:sequence>
+<xs:attribute type="xs:byte" name="bookId"/>
+</xs:complexType>
+</xs:element>
+<xs:element name="book2">
+<xs:complexType>
+<xs:sequence>
+<xs:element type="xs:string" name="title"/>
+<xs:element type="xs:string" name="author"/>
+<xs:element type="xs:short" name="year"/>
+<xs:element type="xs:long" name="isbn"/>
+<xs:element type="xs:short" name="price"/>
+</xs:sequence>
+<xs:attribute type="xs:byte" name="bookId"/>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="members">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="member1">
+<xs:complexType>
+<xs:sequence>
+<xs:element type="xs:string" name="name"/>
+<xs:element type="xs:string" name="address"/>
+<xs:element type="xs:long" name="phone"/>
+</xs:sequence>
+<xs:attribute type="xs:byte" name="memberId"/>
+</xs:complexType>
+</xs:element>
+<xs:element name="member2">
+<xs:complexType>
+<xs:sequence>
+<xs:element type="xs:string" name="name"/>
+<xs:element type="xs:string" name="address"/>
+<xs:element type="xs:long" name="phone"/>
+</xs:sequence>
+<xs:attribute type="xs:byte" name="memberId"/>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="staffs">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="staff1">
+<xs:complexType>
+<xs:sequence>
+<xs:element type="xs:string" name="name"/>
+<xs:element type="xs:string" name="address"/>
+<xs:element type="xs:long" name="phone"/>
+</xs:sequence>
+<xs:attribute type="xs:short" name="staffId"/>
+</xs:complexType>
+</xs:element>
+<xs:element name="staff2">
+<xs:complexType>
+<xs:sequence>
+<xs:element type="xs:string" name="name"/>
+<xs:element type="xs:string" name="address"/>
+<xs:element type="xs:int" name="phone"/>
+</xs:sequence>
+<xs:attribute type="xs:short" name="staffId"/>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="publisher">
+<xs:complexType>
+<xs:sequence>
+<xs:element type="xs:string" name="name"/>
+<xs:element type="xs:string" name="address"/>
+<xs:element type="xs:long" name="phone"/>
+</xs:sequence>
+<xs:attribute type="xs:short" name="publishId"/>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

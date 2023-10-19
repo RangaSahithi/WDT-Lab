@@ -1,0 +1,93 @@
+<!DOCTYPE library [
+<!ELEMENT library (books,members,staffs,publisher)>
+<!ELEMENT books (book1,book2)>
+<!ELEMENT book1 (title,author,year,isbn,price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT book2 (title,author,year,isbn,price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT members (member1,member2)>
+<!ELEMENT member1 (name,address,phone)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT member2 (name,address,phone)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT staffs (staff1,staff2)>
+<!ELEMENT staff1 (name,address,phone)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT staff2 (name,address,phone)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT publisher (name,address,phone)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST book1 bookId CDATA #REQUIRED>
+<!ATTLIST book2 bookId CDATA #REQUIRED>
+<!ATTLIST member1 memberId CDATA #REQUIRED>
+<!ATTLIST member2 memberId CDATA #REQUIRED>
+<!ATTLIST staff1 staffId CDATA #REQUIRED>
+<!ATTLIST staff2 staffId CDATA #REQUIRED>
+<!ATTLIST publisher publisId CDATA #REQUIRED>
+]>
+
+<library>
+<books>
+<book1 bookId="1">
+<title>Web Designing and Publishing</title>
+<author>SATISH JAIN</author>
+<year>2020</year>
+<isbn>9789389845747</isbn>
+<price>333</price>
+</book1>
+<book2 bookId="2">
+<title>Artificial Intelligence</title>
+<author>HEMA DHINGRA</author>
+<year>2020</year>
+<isbn>9789389749328</isbn>
+<price>599</price>
+</book2>
+</books>
+<members>
+<member1 memberId="101">
+<name>M.S.Reddy</name>
+<address>Ramagiri</address>
+<phone>9177354706</phone>
+</member1>
+<member2 memberId="102">
+<name>Madhu</name>
+<address>Dharmavaramu</address>
+<phone>6309614167</phone>
+</member2>
+</members>
+<staffs>
+<staff1 staffId="201">
+<name>K.Venkatesh</name>
+<address>Dharmavaramu</address>
+<phone>9135469872</phone>
+</staff1>
+<staff2 staffId="202">
+<name>T.Murali Krishna</name>
+<address>Karnool</address>
+<phone>913546987</phone>
+</staff2>
+</staffs>
+<publisher publishId="301">
+<name>S.Chand</name>
+<address>Delhi</address>
+<phone>01149731800</phone>
+</publisher>
+</library>
