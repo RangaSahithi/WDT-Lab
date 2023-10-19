@@ -1,0 +1,19 @@
+<?xml version = "1.0"?>
+<books>
+<book1>
+<title> Artificial Intelligence </title>
+<author> Rich andKnight</author>
+<ISBN> 20062 </ISBN>
+<publisher> Pearson </publisher>
+<edition> 4th edition </edition>
+<price> 500 </price>
+</book1>
+<book2>
+<title> Managerial Economics and Financial Analysis</title>
+<author> Aryshree </author>
+<ISBN> 20823 </ISBN>
+<publisher>Oxford </publisher>
+<edition> 6th edition </edition>
+<price> 250 </price>
+</book2>
+</books>
